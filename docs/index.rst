@@ -26,9 +26,26 @@ Hieroglyph is an extension for `Sphinx`_ which builds HTML slides from
    .. _`hieroglyph-users`: http://groups.google.com/d/forum/hieroglyph-users
    .. _`Gmane archive`: http://dir.gmane.org/gmane.comp.python.hieroglyph.users
 
-   .. toctree::
-      :maxdepth: 2
+    .. toctree::
+       :maxdepth: 2
+       
+       getting-started
+       styling
+       themes
+       advanced
+       config
+       theme-creation
+       directives
+       builders
+       developing
+       ref-index
+       releases
 
+.. ifslides::
+
+   .. toctree::
+      :hidden:
+      
       getting-started
       styling
       themes
@@ -69,14 +86,3 @@ Related Projects
    :hidden:
 
    tests/smoketest.rst
-   getting-started
-   styling
-   themes
-   advanced
-   config
-   theme-creation
-   directives
-   builders
-   developing
-   ref-index
-   releases
